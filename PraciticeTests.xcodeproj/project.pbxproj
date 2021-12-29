@@ -16,6 +16,7 @@
 		8A146CE9277C4A7900220F40 /* PraciticeTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A146CE8277C4A7900220F40 /* PraciticeTestsTests.swift */; };
 		8A146CF3277C4A7900220F40 /* PraciticeTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A146CF2277C4A7900220F40 /* PraciticeTestsUITests.swift */; };
 		8A146CF5277C4A7900220F40 /* PraciticeTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A146CF4277C4A7900220F40 /* PraciticeTestsUITestsLaunchTests.swift */; };
+		8A146D02277C4B7D00220F40 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A146D01277C4B7D00220F40 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8A146CEE277C4A7900220F40 /* PraciticeTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraciticeTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A146CF2277C4A7900220F40 /* PraciticeTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraciticeTestsUITests.swift; sourceTree = "<group>"; };
 		8A146CF4277C4A7900220F40 /* PraciticeTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraciticeTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A146D01277C4B7D00220F40 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				8A146CD1277C4A7700220F40 /* AppDelegate.swift */,
 				8A146CD3277C4A7700220F40 /* SceneDelegate.swift */,
+				8A146D01277C4B7D00220F40 /* Model.swift */,
 				8A146CD5277C4A7700220F40 /* ViewController.swift */,
 				8A146CD7277C4A7700220F40 /* Main.storyboard */,
 				8A146CDA277C4A7800220F40 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 				8A146CD6277C4A7700220F40 /* ViewController.swift in Sources */,
 				8A146CD2277C4A7700220F40 /* AppDelegate.swift in Sources */,
 				8A146CD4277C4A7700220F40 /* SceneDelegate.swift in Sources */,
+				8A146D02277C4B7D00220F40 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
