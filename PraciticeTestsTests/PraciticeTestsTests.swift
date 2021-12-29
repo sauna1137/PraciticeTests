@@ -11,20 +11,31 @@ import XCTest
 class PraciticeTestsTests: XCTestCase {
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // テストの開始時に最初に一度呼ばれる関数。テストケースを回すために必要な設定やインスタンスの生成などをここで行います
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        // テストの終了時に一度呼ばれる関数。
     }
 
+    func testHi() {
+         let p = Person("Taro", 160, 50)
+         let ret = p.hi()
+         XCTAssertEqual(ret, "Hi. I'm \(p.name).")
+     }
+
+     func testBmi() {
+         let p = Person("Hanako", 140, 40)
+         let ret = p.bmi()
+         XCTAssertEqual(ret, 20.41)
+     }
+
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // テスト対象の関数です。この関数一つに対してテストケースを一つ書きます。どうやってテストケースとして判別するかというと、関数名の頭文字が "test" で始まる関数かどうかで識別しているようです。
     }
 
     func testPerformanceExample() throws {
-        // This is an example of a performance test case.
+        // パフォーマンスの計測用の関数です。 self.measure {} のクロージャの中に計測したい処理を記述するとその処理にかかった時間を教えてくれます。
         self.measure {
             // Put the code you want to measure the time of here.
         }
